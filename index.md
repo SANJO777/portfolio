@@ -2,7 +2,7 @@
 
   <!-- Imagen de perfil redonda estilo IG -->
 <a href="https://github.com/SANJO777" target="_blank">
-    <img src="https://github.com/SANJO777.png" alt="Profile Photo" style="width: 150px; height: 150px; border-radius: 50%; border: 4px solid #ff5e5e; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <img src="https://github.com/SANJO777.png" alt="Profile Photo" style="width: 200px; height: 200px; border-radius: 50%; border: 4px solid #ff5e5e; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
   </a>
 
   <!-- Bio -->
