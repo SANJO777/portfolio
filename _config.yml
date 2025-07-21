@@ -1,2 +1,5 @@
-exclude:
-  - README.md
+# _config.yml
+---
+layout: none
+title: ""
+---
