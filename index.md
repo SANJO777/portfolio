@@ -1,3 +1,7 @@
+<div style="text-align: center; font-size: 24px; font-weight: bold; color: #ff5e5e; margin-bottom: 20px; border-bottom: 2px solid #ff5e5e; padding-bottom: 5px;">
+  My Portfolio
+</div>
+
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
 
   <!-- Imagen de perfil redonda estilo IG -->
