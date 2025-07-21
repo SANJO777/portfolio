@@ -6,14 +6,14 @@
   <!-- Bio -->
   <div>
     <h2 style="margin: 0;">👋 Hi, I'm Santiago Rodríguez</h2>
-    <p style="max-width: 400px;">
-🎓 I'm currently studying Information Security Engineering.
-🧠 I'm passionate about solving problems as a team, always guided by the Lord (God).
-💡 I truly believe that every problem has a solution —
-and if it doesn't…
-…it’s because the problem has already been solved. Amen! 🙏🏻
-    </p>
-
+ <p style="max-width: 400px;">
+  🎓 I'm currently studying Information Security Engineering.<br>
+  🧠 I'm passionate about solving problems as a team, always guided by the Lord (God).<br>
+  💡 I truly believe that every problem has a solution —<br>
+  and if it doesn't…<br>
+  …it’s because the problem has already been solved. Amen! 🙏🏻
+</p>
+    
     <!-- Redes sociales -->
     <div style="display: flex; gap: 15px; margin-top: 10px;">
 
