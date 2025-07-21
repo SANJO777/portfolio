@@ -1,5 +1,3 @@
 # _config.yml
----
-layout: none
-title: ""
----
+title: "Mi Portfolio"
+description: "Portafolio personal de Santiago Rodríguez"
