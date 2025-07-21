@@ -41,23 +41,6 @@ title: ""
     }
   }
 
-  .title-header {
-    text-align: center;
-    font-size: 32px;
-    color: var(--accent-light);
-    margin: 30px 0 20px;
-    font-weight: bold;
-    border-bottom: 2px solid var(--accent-light);
-    padding-bottom: 10px;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .title-header {
-      color: var(--accent-dark);
-      border-color: var(--accent-dark);
-    }
-  }
-
   .profile-container {
     display: flex;
     flex-direction: column;
@@ -106,8 +89,6 @@ title: ""
     }
   }
 </style>
-
-<div class="title-header">My Portfolio</div>
 
 <div class="profile-container">
   <!-- Imagen de perfil -->
