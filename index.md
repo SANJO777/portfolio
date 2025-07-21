@@ -107,14 +107,19 @@ title: ""
   }
   .repo {
     display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  .repo-header {
+    display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 12px;
   }
-  .repo img {
+  .repo-header img {
     width: 30px; height: 30px; border-radius: 6px;
   }
-  .repo a {
+  .repo-header a {
     font-weight: 600;
     text-decoration: none;
     color: inherit;
@@ -128,6 +133,16 @@ title: ""
   @media (prefers-color-scheme: dark) {
     .repo-language {
       color: var(--accent-dark);
+    }
+  }
+  .repo-description {
+    font-size: 0.9em;
+    color: var(--text-light);
+    max-width: 600px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .repo-description {
+      color: var(--text-dark);
     }
   }
 </style>
@@ -170,16 +185,21 @@ title: ""
   <label for="tab2" class="tab-label">Active Repositories</label>
 
   <div id="content1" class="tab-content">
-    <!-- Empty by request -->
+    <!-- No repos here yet -->
   </div>
 
   <div id="content2" class="tab-content">
     <div class="repo">
-      <a href="https://github.com/SANJO777/geometry-crush" target="_blank" style="display:flex; align-items:center; gap:8px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Godot_icon.svg" alt="Godot Logo">
-        <span>Geometry Crush</span>
-      </a>
-      <span class="repo-language">GDScript</span>
+      <div class="repo-header">
+        <a href="https://github.com/SANJO777/geometry-crush" target="_blank" style="display:flex; align-items:center; gap:8px;">
+          <img src="https://godotengine.org/assets/logo_dark.svg" alt="Godot Logo">
+          <span>Geometry Crush</span>
+        </a>
+        <span class="repo-language">GDScript</span>
+      </div>
+      <div class="repo-description">
+        This is my first video game mechanic created in Godot on mobile, inspired by the mobile game Candy Crush.
+      </div>
     </div>
   </div>
 </div>
