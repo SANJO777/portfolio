@@ -1,3 +1,20 @@
+---
+layout: none
+title: "Mi Portfolio"
+---
+
+<style>
+h1 {
+  color: #1a73e8;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+</style>
+
+<h1>Mi Portfolio</h1>
+
 <div style="text-align: center; font-size: 24px; font-weight: bold; color: #ff5e5e; margin-bottom: 20px; border-bottom: 2px solid #ff5e5e; padding-bottom: 5px;">
   My Portfolio
 </div>
