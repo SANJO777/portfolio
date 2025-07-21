@@ -110,10 +110,7 @@ title: ""
     <!-- Redes sociales -->
     <div class="social-icons">
       <a href="https://github.com/SANJO777" target="_blank">
-        <picture>
-          <source srcset="https://i.imgur.com/5YhPqPu.png" media="(prefers-color-scheme: dark)">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width:30px;">
-        </picture>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width:30px;">
       </a>
       <a href="https://linkedin.com/in/santiago-rodríguez-0b7476375" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:30px;">
