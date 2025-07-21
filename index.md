@@ -59,3 +59,39 @@ title: ""
     </div>
   </div>
 </div>
+
+<!-- Sección de proyectos -->
+
+<details>
+  <summary style="font-size: 20px; font-weight: bold; cursor: pointer; color: #1a73e8;">📁 My Completed Repositories</summary>
+
+  <ul>
+    <li>
+      <a href="https://github.com/SANJO777/NombreDelRepo1" target="_blank" title="Haz clic para ir al repositorio">
+        🧩 NombreDelRepo1
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/SANJO777/NombreDelRepo2" target="_blank" title="Haz clic para ir al repositorio">
+        🧠 NombreDelRepo2
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary style="font-size: 20px; font-weight: bold; cursor: pointer; color: #1a73e8;">🚧 My Ongoing Projects</summary>
+
+  <ul>
+    <li>
+      <a href="https://github.com/SANJO777/NombreDelRepo3" target="_blank" title="Haz clic para ir al repositorio">
+        🔧 NombreDelRepo3
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/SANJO777/NombreDelRepo4" target="_blank" title="Haz clic para ir al repositorio">
+        ⚙️ NombreDelRepo4
+      </a>
+    </li>
+  </ul>
+</details>
