@@ -110,25 +110,42 @@ title: ""
     flex-direction: column;
     gap: 4px;
     margin-bottom: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
   }
   .repo-header {
     display: flex;
     align-items: center;
     gap: 15px;
   }
-  .repo-header img {
-    width: 30px; height: 30px; border-radius: 6px;
-  }
   .repo-header a {
     font-weight: 600;
     text-decoration: none;
     color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+    padding: 4px 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .repo-header a:hover {
+    background-color: var(--accent-light);
+    color: var(--bg-light);
+  }
+  @media (prefers-color-scheme: dark) {
+    .repo-header a:hover {
+      background-color: var(--accent-dark);
+      color: var(--bg-dark);
+    }
   }
   .repo-language {
     margin-left: auto;
     font-style: italic;
     font-size: 0.9em;
     color: var(--accent-light);
+    user-select: none;
   }
   @media (prefers-color-scheme: dark) {
     .repo-language {
@@ -139,6 +156,7 @@ title: ""
     font-size: 0.9em;
     color: var(--text-light);
     max-width: 600px;
+    margin-left: 8px;
   }
   @media (prefers-color-scheme: dark) {
     .repo-description {
@@ -191,11 +209,10 @@ title: ""
   <div id="content2" class="tab-content">
     <div class="repo">
       <div class="repo-header">
-        <a href="https://github.com/SANJO777/geometry-crush" target="_blank" style="display:flex; align-items:center; gap:8px;">
-          <img src="https://godotengine.org/assets/logo_dark.svg" alt="Godot Logo">
+        <a href="https://github.com/SANJO777/geometry-crush" target="_blank" rel="noopener noreferrer">
           <span>Geometry Crush</span>
         </a>
-        <span class="repo-language">GDScript</span>
+        <span class="repo-language">Godot / GDScript</span>
       </div>
       <div class="repo-description">
         This is my first video game mechanic created in Godot on mobile, inspired by the mobile game Candy Crush.
