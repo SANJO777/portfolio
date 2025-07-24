@@ -191,6 +191,9 @@ title: ""
       <a href="https://youtube.com/@sjrpnocommentary" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" style="width:30px;">
       </a>
+      <a href="https://sanjo777.github.io/linkhub/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/929/929564.png" alt="LinkHub" style="width:30px;">
+      </a>
     </div>
   </div>
 </div>
