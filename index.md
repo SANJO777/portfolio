@@ -218,7 +218,7 @@ title: ""
         <span class="repo-language">Godot / GDScript</span>
       </div>
       <div class="repo-description">
-        This is my first video game mechanic created in Godot on mobile, inspired by the mobile game Candy Crush.
+        This is my first video game mechanic created in Godot 4 on PC, inspired by the mobile game Candy Crush.
       </div>
     </div>
   </div>
